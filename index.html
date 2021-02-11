@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet"  href="css/style.css">
 </head>
 <body>
+    
 <!-- start of navbar  -->
 <div class="hero-section">
     <div class="container">
@@ -19,9 +22,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav align-items-center">
-                    <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Courses</a>
-                    <a class="nav-link" href="#">Others</a>
+                    <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#courses">Courses</a>
+                    <a class="nav-link" href="#testimonial">Others</a>
                     <a class="nav-link" href="#">Blog</a>
                     <a class="nav-link" href="#"><button>Sign in</button></a>
                 </div>
@@ -29,6 +32,7 @@
         </nav>
     </div>
     <!-- end of navbar  -->
+  
 
   <!-- start of learn  -->
     <div class="container">
@@ -52,7 +56,7 @@
 
 <!-- start of topic  -->
 
-<div class="container second">
+<div class="container second" id="books">
     <div class="row">
         <div class="col-md-3">
             <div class="topic">
@@ -89,9 +93,9 @@
 
 
 
-<!-- start of online  -->
+<!-- start of courses  -->
 
-<div class="container online">
+<div class="container online" id="courses">
     <h1 class="text-center">Online Courses</h1>
     <div class="card-deck">
         <div class="card">
@@ -100,6 +104,16 @@
                 <h5 class="card-title">Modern Psychology</h5>
                 <p class="card-text">Designation</p>
                 <button>Buy Course</button>
+                <div class="row calender d-flex justify-content-between">
+                    <div>
+                        <img src="images/calendar.png" width="30">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img src="images/people.png" width="30">
+                        <small>60 seats</small>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -109,6 +123,16 @@
                 <h5 class="card-title">Modern Psychology</h5>
                 <p class="card-text">Designation</p>
                 <button>Buy Course</button>
+                <div class="row calender d-flex justify-content-between">
+                    <div>
+                        <img src="images/calendar.png" width="30">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img src="images/people.png" width="30">
+                        <small>60 seats</small>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -118,15 +142,25 @@
                 <h5 class="card-title">Modern Psychology</h5>
                 <p class="card-text">Designation</p>
                 <button>Buy Course</button>
+                <div class="row calender d-flex justify-content-between">
+                    <div>
+                        <img src="images/calendar.png" width="30">
+                        <small>Start 20 April,2021</small>
+                    </div>
+                    <div>
+                        <img src="images/people.png" width="30">
+                        <small>60 seats</small>
+                    </div>
+                </div>
             </div>
         </div>
       </div>
 </div>
-<!-- end of online  -->
+<!-- end of courses -->
 
 <!-- start of testimonial  -->
 
-<div class="container test">
+<div class="container test" id="testimonial">
      <h1 class="text-center">Testimonial</h1>
         <div class="col-md-10 row man">
             <div class="col-md-2  text-center">
@@ -158,33 +192,33 @@
                         <div class="col-md-4">
                             <h5>Course</h5>
                             <ul>
-                              <li>Graphic Design</li>
-                              <li>Web Design</li>
-                              <li>Business</li>
-                              <li>Marketing</li>
-                              <li>Engineering</li>
+                              <li><a href="#">Graphic Design</a></li>
+                              <li><a href="#">Web Design</a></li>
+                              <li><a href="#">Business</a></li>
+                              <li><a href="#">Marketing</a></li>
+                              <li><a href="#">Engineering</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4">
                           <h5>Terms</h5>
                           <ul>
-                            <li>Graphic Design</li>
-                            <li>Web Design</li>
-                            <li>Business</li>
-                            <li>Marketing</li>
-                            <li>Engineering</li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Engineering</a></li>
                           </ul>
                         </div>
 
                         <div class="col-md-4">
                             <h5>Useful Link</h5>
                               <ul>
-                                <li>Graphic Design</li>
-                                <li>Web Design</li>
-                                <li>Business</li>
-                                <li>Marketing</li>
-                                <li>Engineering</li>
+                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Engineering</a></li>
                               </ul>
                         </div>
                     </div>
@@ -192,7 +226,7 @@
             
         </div>
         <div class="foot">
-            <p>Copyright © 2020 Rokomari.com</p>
+            <p>Copyright © 2020  <a href="#">Rokomari.com</a></p>
         </div>
     </div>
 </div>

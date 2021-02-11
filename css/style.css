@@ -60,7 +60,7 @@ span{
 }
 .test{
     margin-top:100px;
-    height:300px;
+    height:280px;
     
 }
 .test h1{
@@ -77,10 +77,18 @@ span{
     background:#282531;
     color:#fff;
     padding:40px;
+    margin-top:70px;
 }
 .foot p{
     text-align:center;
     margin-top:30px;
    
 
+}
+a{
+    color:#F0FFF0;
+}
+.calender{
+    margin-top: 20px;
+    width:95%;
 }
